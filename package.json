@@ -1,6 +1,6 @@
 {
   "name": "react-showdown2",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Forked from jerolimov/react-showdown. Render React components within markdown and markdown as React components!",
   "main": "lib/index.js",
   "scripts": {
