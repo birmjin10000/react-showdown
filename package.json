@@ -12,12 +12,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/birmjin10000/react-showdown.git"
+    "url": "git+https://github.com/birmjin10000/react-showdown2.git"
   },
   "bugs": {
-    "url": "https://github.com/birmjin10000/react-showdown/issues"
+    "url": "https://github.com/birmjin10000/react-showdown2/issues"
   },
-  "homepage": "https://github.com/birmjin10000/react-showdown#readme",
+  "homepage": "https://github.com/birmjin10000/react-showdown2#readme",
   "keywords": [
     "react",
     "react-component",

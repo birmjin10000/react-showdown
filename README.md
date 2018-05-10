@@ -1,5 +1,6 @@
 # react-showdown [![Build status][travis-image]][travis-url] [![Test coverage][coveralls-image]][coveralls-url] [![Dependency Status][dependency-image]][dependency-url]
 
+> Forked from jerolimov/react-showdown
 > Render [React](http://facebook.github.io/react/index.html)
 > [components](http://facebook.github.io/react/docs/component-specs.html)
 > within markdown and markdown as React components!
