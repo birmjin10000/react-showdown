@@ -1,4 +1,4 @@
-# react-showdown [![Build status][travis-image]][travis-url] [![Test coverage][coveralls-image]][coveralls-url] [![Dependency Status][dependency-image]][dependency-url]
+# react-showdown2 [![Build status][travis-image]][travis-url] [![Test coverage][coveralls-image]][coveralls-url] [![Dependency Status][dependency-image]][dependency-url]
 
 > Forked from [jerolimov/react-showdown](https://github.com/jerolimov/react-showdown)
 >
@@ -17,7 +17,7 @@
 ### Installation
 
 ```bash
-npm install --save react-showdown
+npm install --save react-showdown2
 ```
 
 ### Use as React component
@@ -25,7 +25,7 @@ npm install --save react-showdown
 Really simple markdown example with ES6/JSX:
 
 ```jsx
-import { Markdown } from 'react-showdown';
+import { Markdown } from 'react-showdown2';
 
 render: () => {
     var markdown = '# Hello\n\nMore content...';
@@ -36,7 +36,7 @@ render: () => {
 Use a React component and use it within the markdown with ES6/JSX:
 
 ```jsx
-import { Markdown } from 'react-showdown';
+import { Markdown } from 'react-showdown2';
 
 const MyComponent extends Component {
 	render() {
@@ -55,7 +55,7 @@ render: () => {
 Really simple markdown example:
 
 ```js
-var Converter = require('react-showdown').Converter;
+var Converter = require('react-showdown2').Converter;
 var converter = new Converter();
 
 var markdown = '# Hello\n\nMore content...';
@@ -72,7 +72,7 @@ var MyComponent = createClass({
 	}
 });
 
-var Converter = require('react-showdown').Converter;
+var Converter = require('react-showdown2').Converter;
 var converter = new ReactShowdown.Converter({ components: { 'MyComponent': MyComponent }});
 
 var markdown = '# Hello\n\n<MyComponent tag="strong">More Content...</MyComponent>';
