@@ -1,8 +1,12 @@
 {
+    "env": {
+        "node": true,
+        "browser": true
+    },
     "rules": {
         "indent": [
-            2,
-            "tab"
+            "error",
+            2
         ],
         "quotes": [
             2,
@@ -15,11 +19,8 @@
         "semi": [
             2,
             "always"
-        ]
-    },
-    "env": {
-        "node": true,
-        "browser": true
+        ],
+        "comma-dangle": ["error", "never"]
     },
     "extends": "eslint:recommended"
 }

@@ -1,23 +1,23 @@
 {
-  "name": "react-showdown",
-  "version": "1.6.0",
+  "name": "react-showdown2",
+  "version": "1.8.0",
   "description": "Render React components within markdown and markdown as React components!",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint lib test",
+    "lint": "eslint lib test --fix",
     "test": "mocha --recursive",
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --recursive"
   },
-  "author": "Christoph Jerolimov",
+  "author": "Birmjin In",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jerolimov/react-showdown.git"
+    "url": "git+https://github.com/birmjin10000/react-showdown.git"
   },
   "bugs": {
-    "url": "https://github.com/jerolimov/react-showdown/issues"
+    "url": "https://github.com/birmjin10000/react-showdown/issues"
   },
-  "homepage": "https://github.com/jerolimov/react-showdown#readme",
+  "homepage": "https://github.com/birmjin10000/react-showdown#readme",
   "keywords": [
     "react",
     "react-component",
@@ -25,18 +25,18 @@
     "showdown"
   ],
   "dependencies": {
-    "create-react-class": "^15.5.2",
-    "htmlparser2": "^3.9.0",
-    "prop-types": "^15.5.8",
-    "showdown": "^1.5.0"
+    "create-react-class": "^15.6.3",
+    "htmlparser2": "^3.9.2",
+    "prop-types": "^15.6.1",
+    "showdown": "^1.8.6"
   },
   "devDependencies": {
-    "coveralls": "^2.11.4",
-    "eslint": "^3.19.0",
-    "istanbul": "^0.4.1",
-    "mocha": "^3.2.0",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "showdown-twitter": "^1.0.1"
+    "coveralls": "^3.0.1",
+    "eslint": "^4.19.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "showdown-twitter": "^1.1.0"
   }
 }
